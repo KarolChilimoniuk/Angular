@@ -1,0 +1,11 @@
+<div class="news-item">
+  <h3 class="h3">{{news.title}}</h3>
+  <img [src]="imageUrl" />
+  <p class="card-text content-field"> {{news.content}}</p>
+  <div class="news-buttons-container">
+    <p>Approves: {{news.approves}}</p>
+    <button (click)="remove()" class="btn btn-secondary">remove</button>
+    <button (click)="approve()" class="btn btn-success">approve</button>
+    <button (click)="disapprove()" class="btn btn-dark">disapprove</button>
+  </div>
+</div>

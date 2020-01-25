@@ -1,0 +1,4 @@
+.news-editor {
+  display: flex;
+  flex-direction: column;
+}

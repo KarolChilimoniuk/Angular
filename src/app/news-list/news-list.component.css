@@ -1,0 +1,11 @@
+ul {
+  list-style-type: none;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(254, 226, 245);
+}
+
+li:nth-child(even) {
+  background-color: rgb(177, 145, 248);
+}

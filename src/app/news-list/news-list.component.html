@@ -1,0 +1,7 @@
+<button (click)="ngOnInit()" *ngIf="news?.length <= 0" class="btn btn-primary">zainicjuj</button>
+<ul>
+  <li *ngFor="let item of news; let i=index">
+    <app-news-item [news]="item" [index]="i">
+    </app-news-item>
+  </li>
+</ul>

@@ -1,0 +1,31 @@
+.news-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+.news-item img {
+  margin: 20px;
+  width: 400px;
+}
+
+.news-item button {
+  float: right;
+  margin: 10px;
+}
+
+.content-field {
+  border: solid #000 1px;
+  width: 70%;
+  height: 200px;
+}
+
+.news-buttons-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}

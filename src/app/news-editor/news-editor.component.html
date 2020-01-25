@@ -1,0 +1,11 @@
+<label>
+  <input [(ngModel)]="newTitle" type="text" class="form-control form-control-lg" />
+</label>
+<br />
+<label>
+  <textarea [(ngModel)]="newContent" class="form-control form-control-lg"></textarea>
+</label>
+<br />
+<button (click)="addNewItem()" [disabled]="!newTitle" class="btn btn-success">
+  add
+</button>
